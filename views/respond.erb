@@ -1,0 +1,15 @@
+<!doctype HTML>
+<html>
+  <head><title> Emoji Result! </title> <link rel="stylesheet" type="text/css" href= "css/style.css"> </head>
+ <body>
+   <div>
+   <h2> The Emoji you should text them: </h2> 
+   
+   <% @url_array.each do |result| %>
+   <%="<img src=" + result + ">"%>
+   <% end %>
+   </div>
+  </body>
+</html>
+
+ 

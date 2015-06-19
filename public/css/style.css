@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Chewy);
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+h1{
+  font-size: 350%;
+	font-family: 'Press Start 2P', cursive;
+  color:black;
+  text-align:center;
+     border-style: solid;
+/*   filter:alpha(opacity=10); */
+  margin: 5Spx;
+  background-color: rgba(255, 255, 255, 0.6);
+/*   background-color: #ffffff; */
+  border: 1px solid black;
+  margin-left:30%;
+  margin-right:30%;
+}
+body {
+	font-size: 100%;
+  text-align:center;
+	font-family: 'Questrial', sans-serif;
+  color:black;
+  background-repeat: repeat;
+  background-image: url('background.jpg');
+}
+
+label{
+  color:black;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  font-size:140%;
+  opacity: 1;
+  
+}
+
+h2 {
+	font-family: 'Questrial', sans-serif;
+  color:black;
+  text-align:center;
+/*   border-color:white;
+  border-style: solid;
+/*   filter:alpha(opacity=10); */
+/*   margin: 5Spx;
+  background-color: rgba(255, 255, 255, 0.6); */
+/*   background-color: #ffffff; */
+/*   border: 1px solid black; */ */
+}
+
+div,form{
+	font-family: 'Chewy', cursive;
+  font-style:bold;
+  font-size:100%;
+  color:black;
+  border-style: solid;
+/*   filter:alpha(opacity=10); */
+  margin: 5Spx;
+  background-color: rgba(200, 255, 255, 0.6);
+/*   background-color: #ffffff; */
+  border: 1px solid black;
+  margin-left:20%;
+  margin-right:20%;
+  padding:0 45px 20px;
+}
+
+h3{
+ font-family: 'Press Start 2P', cursive;
+  color:black;
+  text-align: center; 
+  font-style:bold
+  }
+
+
+  input{
+    color: black;
+  }
+
+
+/* 
+}
+div.transbox
+{
+  margin: 10Spx;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+/* div.transbox
+{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+} */ */
