@@ -13,11 +13,11 @@ class MyApp < Sinatra::Base
     @answer= Responder.result
     Image = ImageGetter.new
     @url_array = Image.convert(@answer)
-    Responder =Result.new
+    Responder =Emoji.new(params)
     name = params[:name]
     emo = params[:emotion]
     puts params
-    @answer= Responder.response(name,emo)
+    @answer= Responder.result
     #respond.erb
     erb :respond
   end
